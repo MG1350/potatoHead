@@ -13,43 +13,43 @@ private boolean hasHat;
 //default constructor 
 public potatoHead() 
 { 
-colorEye = "black";
-colorNose = "brown";
-colorShoe = "black";
-hasStache = true;
-hasHat = true;
+    colorEye = "black";
+    colorNose = "brown";
+    colorShoe = "black";
+    hasStache = true;
+    hasHat = true;
 } 
 //initializer/ parameterized constructor 
 public potatoHead(String eye, String nose, String shoe, boolean stache, boolean hat) 
 { 
-           colorEye = eye;
+    colorEye = eye;
 	colorNose = nose;
-colorShoe = shoe;
-hasStache = stache;
-hasHat = hat;
+    colorShoe = shoe;
+    hasStache = stache;
+    hasHat = hat;
 } 
 /******************************************************/ 
 
 //Accessor Methods 
 public String getColorEye() 
 { 
-return colorEye; 
+    return colorEye; 
 } 
 public String getColorNose() 
 { 
-return colorNose; 
+    return colorNose; 
 } 
 public String getColorShoe() 
 { 
-return colorShoe; 
+    return colorShoe; 
 } 
 public boolean getHasStache() 
 { 
-return hasStache; 
+    return hasStache; 
 } 
 public boolean getHasHat() 
 { 
-return hasHat; 
+    return hasHat; 
 } 
 /**********************************************************************/ 
 
