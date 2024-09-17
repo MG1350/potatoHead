@@ -83,7 +83,8 @@ public void setHasHat(boolean state)
 //toString 
 public String toString() 
 { 
-return "A message that describes the object and its instance variables"; } 
+    return "A message that describes the object and its instance variables"; 
+} 
 /*****************************************************/ //main method 
 public static void main (String [] args) 
 { 
