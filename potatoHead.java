@@ -89,15 +89,14 @@ public String toString()
 public static void main (String [] args) 
 { 
 //create objects or instances
-potatoHead pot = new potatoHead();
-potatoHead pot1 = new potatoHead("red", "orange", "yellow", true, true);
+    potatoHead pot = new potatoHead();
+    potatoHead pot1 = new potatoHead("red", "orange", "yellow", true, true);
 //call or access constructors
-String potEye = pot.getColorEye();
-String pot1Eye = pot1.getColorEye();
-System.out.println(potEye);
-System.out.println(pot1Eye);
+    String potEye = pot.getColorEye();
+    String pot1Eye = pot1.getColorEye();
 //call or access (test) all of the methods
-
+    System.out.println(potEye);
+    System.out.println(pot1Eye);
 
 
 } 
