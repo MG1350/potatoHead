@@ -83,7 +83,7 @@ public void setHasHat(boolean state)
 //toString 
 public String toString() 
 { 
-    return "A message that describes the object and its instance variables"; 
+    return "A potato head with " + colorEye + " eyes, " + colorNose + " nose, " + colorShoe + " shoes.\nHas a mustache? " + hasStache + " Has a hat? " + hasHat;
 } 
 /*****************************************************/ //main method 
 public static void main (String [] args) 
@@ -91,13 +91,18 @@ public static void main (String [] args)
 //create objects or instances
     potatoHead pot = new potatoHead();
     potatoHead pot1 = new potatoHead("red", "orange", "yellow", true, true);
+    potatoHead pot2 = new potatoHead("pink", "green", "blue", true, false);
+    potatoHead pot3 = new potatoHead("brown", "blue", "orange", false, false);
 //call or access constructors
     String potEye = pot.getColorEye();
     String pot1Eye = pot1.getColorEye();
+    String pot2Eye = pot2.getColorEye();
+    String pot3Eye = pot3.getColorEye();
 //call or access (test) all of the methods
-    System.out.println(potEye);
-    System.out.println(pot1Eye);
-
+    System.out.println(pot.toString());
+    System.out.println(pot1.toString());
+    System.out.println(pot2.toString());
+    System.out.println(pot3.toString());
 
 } 
 }
