@@ -94,10 +94,6 @@ public static void main (String [] args)
     potatoHead pot2 = new potatoHead("pink", "green", "blue", true, false);
     potatoHead pot3 = new potatoHead("brown", "blue", "orange", false, false);
 //call or access constructors
-    String potEye = pot.getColorEye();
-    String pot1Eye = pot1.getColorEye();
-    String pot2Eye = pot2.getColorEye();
-    String pot3Eye = pot3.getColorEye();
 //call or access (test) all of the methods
     System.out.println(pot.toString());
     System.out.println(pot1.toString());
