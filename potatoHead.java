@@ -83,7 +83,7 @@ public void setHasHat(boolean state)
 //toString 
 public String toString() 
 { 
-    return "A potato head with " + colorEye + " eyes, " + colorNose + " nose, " + colorShoe + " shoes.\nHas a mustache? " + hasStache + " Has a hat? " + hasHat;
+    return "a potato head with " + colorEye + " eyes, " + colorNose + " nose, " + colorShoe + " shoes.\nHas a mustache? " + hasStache + " Has a hat? " + hasHat;
 } 
 /*****************************************************/ //main method 
 public static void main (String [] args) 
@@ -95,10 +95,10 @@ public static void main (String [] args)
     potatoHead pot3 = new potatoHead("brown", "blue", "orange", false, false);
 //call or access constructors
 //call or access (test) all of the methods
-    System.out.println(pot.toString());
-    System.out.println(pot1.toString());
-    System.out.println(pot2.toString());
-    System.out.println(pot3.toString());
+    System.out.println("Potato is " + pot.toString());
+    System.out.println("Potato 1 is " + pot1.toString());
+    System.out.println("Potato 2 is " + pot2.toString());
+    System.out.println("Potato 3 is " + pot3.toString());
 
 } 
 }
