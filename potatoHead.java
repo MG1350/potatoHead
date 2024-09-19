@@ -75,7 +75,28 @@ public void setHasHat(boolean state)
     hasHat = state;
 } 
 /********************************************************************/ 
+public void talk()
+{
+    System.out.println("Hello");
+}
+public String fight(potatoHead one, potatoHead two)
+{
+    double win = Math.random();
+    if (win > 0.5)
+    {
+        return "The winner is " + one.toString();
+    }
+    else
+    {
+        return "The winner is " + two.toString();
+    }
+}
+public void jump()
+{
+    double jump = Math.random();
 
+    System.out.println("A potato just jumped " + (int) (jump * 10) + " feet!");
+}
 //Other methods 
 /*****************************************************/
 
@@ -99,6 +120,8 @@ public static void main (String [] args)
     System.out.println("Potato 1 is " + pot1.toString());
     System.out.println("Potato 2 is " + pot2.toString());
     System.out.println("Potato 3 is " + pot3.toString());
-
+    pot.talk();
+    pot.jump();
+    System.out.println(pot.fight(pot, pot1));
 } 
 }
